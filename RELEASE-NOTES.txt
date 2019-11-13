@@ -5,6 +5,7 @@
 ### Enhancements
 
  - Updated menu icon to use the new icon set [#1694](https://github.com/Automattic/simplenote-electron/pull/1694)
+ - Added matching tags to the notes list on search
 
 ### Fixes
 
@@ -18,8 +19,6 @@
 ## [v1.11.0]
 
 ### Enhancements
-
- - Added a dropdown with suggested tags to the search field
 
 ### Fixes
 
@@ -35,7 +34,7 @@
  - Added support for the unicode bullet • in list items
  - Display a notice that notes are loading when notes are loading
  - In dev mode open Chrome Dev Tools in a separate window
- 
+
 ### Fixes
 
  - Rework WordPress.com signin to prevent infinite looping and login failures [#1627](https://github.com/Automattic/simplenote-electron/pull/1627)
